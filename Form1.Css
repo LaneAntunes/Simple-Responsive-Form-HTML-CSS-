@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*https://www.youtube.com/watch?v=okbByPWS1Xc&t=369s&ab_channel=CodingLab*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+
+}
+
+
+body {
+    display: flex;
+    min-height: fit-content;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.container {
+
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 15px;
+
+
+}
+
+.container .title2 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+}
+
+.container .title::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    left: 0;
+    bottom: 0;
+
+}
+
+.container form .firstpart {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.details2 {
+    display: flex;
+
+
+
+
+}
+
+#male,
+#female,
+#none {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+form .firstpart .inputbox {
+
+    width: calc(100% / 2 - 20px)
+}
+
+.firstpart .inputbox input {
+    height: 45px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.firstpart .inputbox .details {
+    height: 45px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.button input {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: #9b59b6;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
